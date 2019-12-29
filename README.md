@@ -1,3 +1,1 @@
-## Welcome to GitHub Pages
-
-Personal blog
+## Personal blog
