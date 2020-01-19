@@ -8,7 +8,7 @@ comments: true
 After a long break(In Japan first week of january companys tends to take a new-year holiday), sat back on my workspace, started digging on new projects related with automations. Here above I want to share what I found interesting:
 
 ## [pure][pure] prompt
-![pure prompt in WSL Ubuntu](../assets/img/pure-prompt.png)
+![pure prompt in WSL Ubuntu](/assets/img/pure-prompt.png)
 Short description: The most simple prompt theme for zsh. I've been using [agnoster][agnoster] theme for months, but I found it quite heavy especially with heavy git repositories(actually it's not just a problem of the theme, but whole zsh with git repository display...), and wanted to fix this problem and more, use the most simple prompt without any fancy font with icons included. (As I have multiple develop environments)
 Installation was very simple with npm (npm i -g prompt-pure), and just added few shell script on .zshrc to run <code>prompt pure</code> every time launching zsh. I just used for few days but I'm satisfied with its simplicity.
 
