@@ -1,6 +1,6 @@
 ---
-title: "Weekly Summary - What I found"
-date: 2020-01-18 00:12:30 +0900
+title: "Weekly Summary - What I Learned"
+date: 2020-05-03 00:18:00 +0900
 categories: updated
 comments: true
 ---
