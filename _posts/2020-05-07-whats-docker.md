@@ -22,7 +22,7 @@ Docker was built in Linux environment with the container runtime: LXC, but now t
 
 ## Not a machine, it's just one of _proc_
 
-If you're familiar with VMware, Vagrant and others, this is the point where you get confused. But it is _not_ a different machine at all. Everything is running on Host OS.
+If you're familiar with VMware, Vagrant and others, this is the point where you get confused. But Docker container is _not_ a different machine at all. Everything is running _process_ on Host OS.
 
 Proof 1. We don't need and OS installation iso file, which weighs hundreds of megabytes. Docker hub provides official _images_ which imitates the environment.
 
@@ -54,7 +54,7 @@ It is not only Docker's case but inherent limit for thinner layer of isolation.
 
 Think about Version Control system. Everything is _layered_. Then, what is layer in Docker Container? It is a _container layer wrapping image layers_ that allows you to launch it as one process in OS.
 
-Each image become a layer which contains _diff_ results that built over original image. That customized image with thousands of layers are wrapped by Container layer.
+Each image becomes a layer in which contains _diff_ results than built over original image. That customized image with thousands of layers are wrapped by Container layer.
 
 ```shell
 FROM ubuntu:18.04
@@ -63,13 +63,13 @@ RUN make /app
 CMD python /app/app.py
 ```
 
-For example, this dockerfile overrides original ubuntu layer and make a new image that contains its own application. If you don't get it, you should try to make a [_dockerfile_][dockerfile] to understand what I mean.
+For example, this dockerfile overrides original ubuntu layer and make a new image that contains its own application. If you don't get it, you should try to make a [_dockerfile_][dockerfile] to understand what I meant.
 
 ## How Docker communicates
 
 After we deploy a container with any application, we need to attach network to serve it. As I explained earlier, everything is running in Host OS, logically isolated process, therefore any lower level of Network configuration that were available in Linux might not be an option here.
 
-As I mentioned earlier about higher level of abstraction in Network, Docker has few Network presets that user can choose while they launch container:
+As I mentioned earlier about higher level of abstraction in Network, Docker has few Network presets that user can choose:
 
 1. bridge(default): Containers linked to bridge-network.
 2. Host: It is bound directly to host port.
@@ -78,7 +78,7 @@ As I mentioned earlier about higher level of abstraction in Network, Docker has 
 
 ## Too many containers to launch? _docker-compose_
 
-Almost done. If you're aware of [microservice architecture][microservice], you would notice that an application is consist of more than one container that communicates each other. Launching all these stacked containers is very time-consuming job, therefore docker-compose file written in yaml allows administrator to deploy multi container application.
+Almost done. If you're aware of [microservice architecture][microservice], you would notice that an application is consist of more than one container that communicate each other. Launching all these stacked containers is very time-consuming job, therefore docker-compose file written in yaml allows administrator to deploy multi container application in ease.
 
 ## Closing
 
