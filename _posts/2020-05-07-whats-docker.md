@@ -1,10 +1,9 @@
 ---
 title: "Docker A to Z in 10..ish minutes"
-date: 2020-05-18 00:18:30 +0900
+date: 2020-05-07 00:18:30 +0900
 categories: Knowledges
 comments: true
 ---
-## So what is Docker
 
 What is Docker in one line? It is an Application-level software that allows Container Process to virtualize environment above host OS. If you're not keen on any of words in description, I will explain each of them.
 
