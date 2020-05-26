@@ -30,12 +30,40 @@ When I use database, first thing I do is create a database and tables. Assuming 
 node_modules/.bin/sequelize-cli init
 ```
 
-With _init_ command, you create sequelize's
+With _init_ command, you create sequelize's default directories where every pre-definition of databases, tables, and datas will be stored. If you use database directly, you should arrage DB connections, create DB and table schemes and insert few datas with code. Which means that you should start writing Query before any scripts.
+
+With sequelize, you can forget about those specifications from database engines. You can use few CLI commands to declare schemes and then fix the preset easily.
 
 ```shell
 node_modules/.bin/sequelize model:generate --name Reviews --attributes reviewer_id:integer,reviewee_id:integer,score:integer
 ```
 
-For example, I just generated 
+For example, I just generated a table called _Reviews_, which has 3 parameters. Sequelize automatically adds 3 other essential attributes: _id_, _createdAt_ and _modifiedAt_. You'll have created definition on migrations' directory that uses sequelize's function '_createTables_' to create table on connected database.
+
+### How does sequelize use database
+
+After you _init_ sequelize, you'll have another directory called config, which contains each database information of several environments:
+
+```json
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "../data.sqlite3"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": "../data.sqlite3"
+  },
+  "production": {
+    "dialect": "sqlite",
+    "storage": "../data.sqlite3"
+  }
+}
+```
+
+As I was gonna make this project portable, I decided to use sqlite3, and store datas in file (so I can archive it). This configuration is the most simple one, but the concept is similar to each one. If you have local database, you should write access information so Sequelize can access to your database and execute refined query from your application.
+
+### Let's dive into queries
+
 
 [sequelize]: https://sequelize.org/
