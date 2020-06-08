@@ -9,7 +9,7 @@ I have been using Node.js for years, and always thought 'node.js' runs single th
 
 ## Its single but multi
 
-If someone asks you how many threads does node uses, the best answer is to ask 'when'. When I read the post from [preezma][link1], I thought this is great answer to step forward and understand node.js' structure.
+If someone asks you how many threads does node uses, the best answer is to 'ask when'. When I read the post from [preezma][link1], I thought this is great answer to step forward and understand node.js' structure.
 
 ![node.js structure](/assets/img/Node.png)
 
