@@ -1,7 +1,7 @@
 ---
 title: "Ansible playbook : few tips"
 date: 2020-05-21 21:30:30 +0900
-categories: Knowledges
+categories: dev
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Sequelize : How to manage DB"
 date: 2020-05-25 21:30:30 +0900
-categories: Knowledges
+categories: dev
 comments: true
 ---
 

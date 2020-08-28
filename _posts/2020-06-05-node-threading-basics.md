@@ -1,7 +1,7 @@
 ---
 title: "Node.js - Threading basics"
 date: 2020-06-05 00:18:00 +0900
-categories: updated
+categories: dev
 comments: true
 ---
 

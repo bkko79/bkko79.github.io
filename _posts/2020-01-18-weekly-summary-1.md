@@ -1,7 +1,7 @@
 ---
 title: "Weekly Summary - What I learned"
 date: 2020-01-18 00:12:30 +0900
-categories: updated
+categories: dev
 comments: true
 ---
 

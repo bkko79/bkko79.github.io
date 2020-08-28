@@ -1,7 +1,7 @@
 ---
 title: "Docker A to Z in 10..ish minutes"
 date: 2020-05-07 00:18:30 +0900
-categories: Knowledges
+categories: dev
 comments: true
 ---
 
