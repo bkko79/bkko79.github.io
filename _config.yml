@@ -17,10 +17,10 @@ asset_url                : "/assets"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "kogit.co"
+title                    : "bkko79.github.io"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "kogit.co"
+name                     : "bkko79.github.io"
 description              : ""
 url                      : "https://bkko79.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -112,7 +112,7 @@ author:
   avatar           : "/assets/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Multilingual Engineer."
   location         : "Tokyo, Japan"
-  email            : "mailto:bkko@kogit.co"
+  email            : "mailto:bkko@outlook.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
