@@ -14,14 +14,20 @@ entries:
       limit: 5
       show_more: true
       show_more_text: See archive...
-      show_more_url: archive.html
+      show_more_url: archive/
 
   - title: posts by category
     post_list:
       category: dev
       show_more: true
       show_more_text: See more posts...
-      show_more_url: dev-archive.html
+      show_more_url: dev-archive/
 
   - title: rss
     url: feed.xml
+
+  - title: special thanks to
+    entries: 
+      - title: riggraz
+        url: https://github.com/riggraz/no-style-please
+      - title: whole internet
