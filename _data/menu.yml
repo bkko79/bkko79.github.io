@@ -1,0 +1,27 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: me
+    entries:
+      - title: bkko, kuki, Bong Kyun Ko
+      - title: multilingual, cloud-friendly, mostly front-end based.
+      - title: github repo
+        url: https://github.com/bkko79
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: posts by category
+    post_list:
+      category: dev
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: dev-archive.html
+
+  - title: rss
+    url: feed.xml
