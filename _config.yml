@@ -13,8 +13,8 @@
 # theme                    : "minimal-mistakes-jekyll"
 # remote_theme             : "mmistakes/minimal-mistakes"
 # minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-theme                    : no-style-please
-# remote_theme             : "riggraz/no-style-please"
+# theme                    : no-style-please
+remote_theme             : "riggraz/no-style-please"
 asset_url                : "/assets"
 
 # Site Settings
