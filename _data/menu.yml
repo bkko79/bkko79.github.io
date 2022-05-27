@@ -18,9 +18,9 @@ entries:
 
   - title: posts by categories
     entries:
-      -title: dev
+      - title: dev
         url: dev-archive/
-      -tilte: life
+      - title: life
         url: life-archive/
 
   - title: rss
