@@ -16,12 +16,12 @@ entries:
       show_more_text: See archive...
       show_more_url: archive/
 
-  - title: posts by category
-    post_list:
-      category: dev
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: dev-archive/
+  - title: posts by categories
+    entries:
+      -title: dev
+        url: dev-archive/
+      -tilte: life
+        url: life-archive/
 
   - title: rss
     url: feed.xml
